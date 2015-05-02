@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		624CE4D31AF310B700D61AA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624CE4D21AF310B700D61AA2 /* AppDelegate.swift */; };
-		624CE4D51AF310B700D61AA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624CE4D41AF310B700D61AA2 /* ViewController.swift */; };
 		624CE4D81AF310B700D61AA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624CE4D61AF310B700D61AA2 /* Main.storyboard */; };
 		624CE4DA1AF310B700D61AA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624CE4D91AF310B700D61AA2 /* Images.xcassets */; };
 		624CE4DD1AF310B700D61AA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624CE4DB1AF310B700D61AA2 /* LaunchScreen.xib */; };
 		624CE4E91AF310B700D61AA2 /* CPCanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624CE4E81AF310B700D61AA2 /* CPCanvasTests.swift */; };
+		624CE4F31AF3114C00D61AA2 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624CE4F21AF3114C00D61AA2 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		624CE4CD1AF310B700D61AA2 /* CPCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		624CE4D11AF310B700D61AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		624CE4D21AF310B700D61AA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		624CE4D41AF310B700D61AA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		624CE4D71AF310B700D61AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		624CE4D91AF310B700D61AA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		624CE4DC1AF310B700D61AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		624CE4E21AF310B700D61AA2 /* CPCanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPCanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		624CE4E71AF310B700D61AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		624CE4E81AF310B700D61AA2 /* CPCanvasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPCanvasTests.swift; sourceTree = "<group>"; };
+		624CE4F21AF3114C00D61AA2 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CanvasViewController.swift; path = CPCanvas.xcodeproj/../CanvasViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				624CE4D21AF310B700D61AA2 /* AppDelegate.swift */,
-				624CE4D41AF310B700D61AA2 /* ViewController.swift */,
 				624CE4D61AF310B700D61AA2 /* Main.storyboard */,
+				624CE4F21AF3114C00D61AA2 /* CanvasViewController.swift */,
 				624CE4D91AF310B700D61AA2 /* Images.xcassets */,
 				624CE4DB1AF310B700D61AA2 /* LaunchScreen.xib */,
 				624CE4D01AF310B700D61AA2 /* Supporting Files */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				624CE4D51AF310B700D61AA2 /* ViewController.swift in Sources */,
+				624CE4F31AF3114C00D61AA2 /* CanvasViewController.swift in Sources */,
 				624CE4D31AF310B700D61AA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
